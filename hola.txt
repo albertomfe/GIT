@@ -27,3 +27,18 @@ git add -A
   quitar uno de los archivos agregados en el add .
 */
 git rm --cached index.php
+
+
+/*
+crear un commit -m (mensaje)
+crea los archivos dentro del git
+*/
+git commit -m "nombre_del_cambio"
+
+/*
+revisar los ultimos cambios
+hay 3 tipos de cambios
+HEAD => el ultimo guardado
+
+*/
+git log

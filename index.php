@@ -76,6 +76,21 @@
 
 
 
+      /*comrimir texto*/
+      $texto="hola como estas tu?, no podia dormir, estoy muy solo ,solo ,solo y tal vez, tambien tu sola estes";
+      print_r(strlen($texto)); /*numero de caracteres*/
+
+      //comprimido
+      $compress=gzcompress($texto);echo "<br />";
+      print_r(strlen($compress)); /*numero de caracteres*/
+      echo $compress."<br />";
+
+      /*descomprimir un texto*/
+      $texto=gzuncompress($compress);echo "<br />";
+      print_r(strlen($texto)); /*numero de caracteres*/
+
+
+      echo "<br /><br />";
     ?>
 
 
