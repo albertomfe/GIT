@@ -46,5 +46,9 @@ git log
 
 
 /*
-retrocesos en el tiempo den git
+retrocesos en el tiempo de  git volvera un comit especifico
+se requiere copiar el id del comit especifico
+7ad1bd72d617ff9f1517bf2983c5a506f503b12f
 */
+
+git checkout 7ad1bd72d617ff9f1517bf2983c5a506f503b12f
