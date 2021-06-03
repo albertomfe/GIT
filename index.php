@@ -91,6 +91,22 @@
 
 
       echo "<br /><br />";
+
+      /*imprimir en pantalla y dar estilo al codigo en la impresion mostrando el archivo*/
+      //highlight_file("index.php");
+
+      highlight_string(
+        '
+          <?php
+            for($i=0;$i<10;$i++)
+            {
+              echo "hola mundo";
+            }
+          ?>
+        '
+      );
+        echo "<br /><br />";
+
     ?>
 
 

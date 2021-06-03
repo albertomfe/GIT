@@ -42,3 +42,9 @@ HEAD => el ultimo guardado
 
 */
 git log
+
+
+
+/*
+retrocesos en el tiempo den git
+*/
